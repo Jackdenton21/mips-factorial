@@ -1,4 +1,4 @@
-.data 
+.data   
 	msg1: .asciiz "Please input an integer value greater than or equal to 0: "
 	msg2: .asciiz "The value you entered is less than zero. This program only works with values greater than or equal to zero."
 	answerMsg1: .asciiz "Your input: "
@@ -8,7 +8,7 @@
 	newLine: .asciiz "\n"
 
 
-##########################################TEXT########################################################################################
+###########################################TEXT########################################################################################
 .text
 
 	main: 
